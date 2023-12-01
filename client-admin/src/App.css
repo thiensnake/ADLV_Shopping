@@ -1,0 +1,443 @@
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .float-left {
+    flex: 1 0 100%; /* Full width on smaller screens */
+    margin: 20px 0px 0px 20px;
+  }
+}
+/* Add these styles in your CSS file */
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.float-right {
+flex: 1 0 30%; /* Adjust the width */
+margin: 20px 20px 0px 20px;
+
+}
+
+.float-right h2 {
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .float-right {
+    flex: 1 0 100%; /* Full width on smaller screens */
+    margin: 20px 20px 0px 20px;
+  }
+}
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .float-right {
+    flex: 1 0 100%; /* Full width on smaller screens */
+    margin: 20px 20px 0px 20px;
+  }
+  }
+  /* Smartphones (landscape) ----------- */
+  @media only screen and (min-width : 321px) {
+    .float-right {
+      flex: 1 0 100%; /* Full width on smaller screens */
+      margin: 20px 20px 0px 20px;
+    }
+  }
+  /* Smartphones (portrait) ----------- */
+  @media only screen and (max-width : 320px) {
+    .float-right {
+      flex: 1 0 100%; /* Full width on smaller screens */
+      margin: 20px 20px 0px 20px;
+    }
+  }
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .float-right {
+      flex: 1 0 100%; /* Full width on smaller screens */
+      margin: 20px 20px 0px 20px;
+    }
+  }
+  /* iPads (landscape) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .float-right {
+      flex: 1 0 100%; /* Full width on smaller screens */
+      margin: 20px 20px 0px 20px;
+    }
+  }
+  /* iPads (portrait) ----------- */
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .float-right {
+      flex: 1 0 100%; /* Full width on smaller screens */
+      margin: 20px 20px 0px 20px;
+    }
+  }
+  /**********
+  iPad 3
+  **********/
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    .float-right {
+      flex: 1 0 100%; /* Full width on smaller screens */
+      margin: 20px 20px 0px 20px;
+    }
+  }
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    .float-right {
+      flex: 1 0 100%; /* Full width on smaller screens */
+      margin: 20px 20px 0px 20px;
+    }
+  }
+  /* Desktops and laptops ----------- */
+  @media only screen  and (min-width : 1224px) {
+    .float-right {
+      flex: 1 0 100%; /* Full width on smaller screens */
+      margin: 20px 20px 0px 20px;
+    }
+  }
+  /* Large screens ----------- */
+  @media only screen  and (min-width : 1824px) {
+    .float-right {
+      flex: 1 0 100%; /* Full width on smaller screens */
+      margin: 20px 20px 0px 20px;
+    }
+  }
+  /* iPhone SE ----------- */
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    .float-right {
+      flex: 1 0 75%; /* Full width on smaller screens */
+      margin: 20px 20px 0px 20px;
+    }
+    .float-left {
+      flex: 1 0 75%; 
+      margin: 20px 0px 0px 20px;
+    }
+    }
+    /*Iphone14 pro max*/
+    @media only screen and (min-device-width: 430) and (max-device-height: 932) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+      .float-right {
+        flex: 1 0 100%; /* Full width on smaller screens */
+        margin: 20px 20px 0px 20px;
+      }
+      .float-left {
+        flex: 1 0 75%; 
+        margin: 20px 0px 0px 20px;
+      }
+      }
+      @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+        .float-right {
+          flex: 1 0 75%; /* Full width on smaller screens */
+          margin: 20px 20px 0px 20px;
+        }
+        .float-left {
+          flex: 1 0 75%; 
+          margin: 20px 0px 0px 20px;
+        }
+      }
+  /*Iphone12 Pro*/
+  @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+    .float-right {
+      flex: 1 0 75%; /* Full width on smaller screens */
+      margin: 20px 20px 0px 20px;
+    }
+    .float-left {
+      flex: 1 0 75%; 
+      margin: 20px 0px 0px 20px;
+    }
+    }
+    @media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+      .float-right {
+        flex: 1 0 75%; /* Full width on smaller screens */
+        margin: 20px 20px 0px 20px;
+      }
+      .float-left {
+        flex: 1 0 75%; 
+        margin: 20px 0px 0px 20px;
+      }
+    }
+
+/* styles.css */
+.body-customer {
+  width: auto;
+  height: fit-content;
+  margin: 0px auto;
+}
+.body-admin {
+  width: auto;
+  height: fit-content;
+  margin: 0px auto;
+
+  
+}
+div.inline {
+  display: inline-block;
+}
+figure.caption-right {
+  display: flex;
+  align-items: center;
+}
+.align-center {
+  width: fit-content;
+  margin: 0px auto;
+}
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+}
+.text-center {
+  text-align: center;
+}
+span.link {
+  cursor: pointer;
+  color: rgb(1, 3, 8);
+  text-decoration: none;
+}
+span.link:hover{
+  color: #dc2f14;
+}
+/* menu.css */
+div.border-bottom {
+  border-bottom: 1px solid black;
+  padding: 15px 50px 15px 50px;
+  background-color: #6c6e78;
+}
+div.float-left {
+  float: left;
+}
+div.float-right {
+  float: right;
+}
+div.float-clear {
+  clear: both;
+}
+ul.menu {
+  margin: 0px;
+  padding: 0px;
+}
+li.menu {
+  display: inline;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+form.search {
+  margin: 0px;
+}
+input.keyword {
+  width: 110px;
+}
+/* datatable.css */
+.datatable {
+  text-align: center;
+  border-collapse: collapse;
+}
+/* header */
+tr:first-child.datatable {
+  background-color: #ffcc00;
+}
+/* even rows, except header */
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: #f5f5f5;
+}
+/* odd rows, except header */
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: #f5f5f5;
+}
+/* except header */
+tr:not(:first-child):hover.datatable {
+  background-color: #dcfcfc;
+  cursor: pointer;
+}
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #6a11cb;
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+
+  /*-----------------------------------------Login------------------------------*/
+  /* Importing fonts from Google */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reseting */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ecf0f3;
+
+}
+
+
+.wrapper {
+    max-width: 350px;
+    min-height: 450px;
+    margin: 100px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+
+.logo {
+    width: 80px;
+    margin: auto;
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px #5f5f5f,
+        0px 0px 0px 5px #ecf0f3,
+        8px 8px 15px #a7aaa7,
+        -8px -8px 15px #fff;
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555;
+}
+
+.wrapper .form-field input {
+  width: 100%;
+  display: block;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.2rem;
+  color: #000;
+  padding: 10px 15px 10px 10px;
+  border-radius: 20px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+  /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+  padding-left: 0px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;  
+}
+
+.wrapper .form-field .fas {
+  
+    color: #555;
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(22, 23, 25);
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff;
+    letter-spacing: 1.3 px;
+}
+.wrapper .btn:hover {
+    background-color: #655f5f;
+    
+}
+.wrapper h3{
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #03A9F4;
+}
+
+.wrapper a:hover {
+    color: #039BE5;
+}
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
+
+/*-------------------------------Menu---------------------------*/
+
+.menu-body{
+  background-color: #e6e7e9;
+}
+.me-auto a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  margin-left: 20px;
+}
+.me-hever a{
+  background-color: #ececec !important;
+  color: rgb(52, 50, 52) !important; /* Thay đổi màu chữ khi hover */
+
+}
+.logout a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+.me-auto li a:hover {
+  color: rgba(255, 119, 0, 0.893); /* Change to your desired color on hover */
+}
+.logout a:hover{
+  color: #ff6f00;
+}
+/*--------------------------------catagory-----------------------------*/
+/* Add these styles in your CSS file */
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.float-left {
+  flex: 1 0 70%; 
+  margin: 20px 0px 0px 20px;
+}
+
+.float-left h2 {
+  text-align: center;
+}
+
+.datatable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.datatable th,
+.datatable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.datatable th {
+  background-color: #b8b7b4;
+}
+#inputGroup-sizing-default{
+  background-color: #b8b7b4;
+}
+
+/*------------------------------------------product----------------------------------*/

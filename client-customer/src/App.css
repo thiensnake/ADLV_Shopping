@@ -1,0 +1,656 @@
+/* styles.css */
+.body-customer {
+  width: auto;
+  height: fit-content;
+  margin: 0px auto;
+  
+}
+.body-admin {
+  width: auto;
+  height: fit-content;
+  margin: 0px auto;
+}
+div.inline {
+  display: inline-block;
+
+}
+.figure {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 10px;
+}
+.caption-right{
+  justify-content: right;
+}
+.align-center {
+  text-align: center;
+  margin: 10px;
+  margin-top: 150px !important;
+}
+.align-valign-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0px 20px 20px 20px;
+  border: 1px solid black;
+}
+.text-center {
+  text-align: center;
+  margin-top: 50px;
+
+
+
+}
+span.link {
+  cursor: pointer;
+  color: blue;
+  text-decoration: none;
+}
+/* menu.css */
+div.border-bottom {
+background-color: #001489;
+ padding: 10px 0px 10px 0px;
+}
+div.float-left {
+  float: left;
+}
+
+div.menu-botton a{
+  color: #1a1919 ;
+  text-decoration: none;
+}
+div.menu-botton b{
+  color: #faf8f8;
+}
+div.float1{
+  color: #000000;
+}
+div.float2{
+  color: #0a0a0a !important;
+  display: flex;
+  justify-content: left;
+  
+}
+
+div.menu-botton a:hover{
+  color: #f36038 !important;
+}
+div.float-clear {
+  clear: both;
+}
+ul.menu {
+  margin: 0px;
+  padding: 0px;
+}
+li.menu {
+  margin: 5px 0;
+}
+li.menu a{
+  text-decoration: none;
+  color: #fff;
+}
+li.menu a:hover{
+  color: #b5c0d1;
+}
+
+form.search {
+  margin: 0px;
+}
+input.keyword {
+  width: 110px;
+}
+/* datatable.css */
+.datatable {
+  justify-content: center;
+  border-collapse: collapse;
+  color: #000 !important;
+}
+/* header */
+tr:first-child.datatable {
+  background-color: #ffcc00;
+}
+/* even rows, except header */
+tr:not(:first-child):nth-child(even).datatable {
+  background-color: #f5f5f5;
+}
+/* odd rows, except header */
+tr:not(:first-child):nth-child(odd).datatable {
+  background-color: #f5f5f5;
+}
+/* except header */
+tr:not(:first-child):hover.datatable {
+  background-color: #dcfcfc;
+  cursor: pointer;
+}
+/*-------------------------------------menu_trái----------------------------*/
+.menu-body{
+  background-color: #8f9095;
+  
+}
+.me-auto a{
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.logout a{
+  text-decoration: none;
+  color: white;
+}
+.me-auto li a:hover {
+  color: #007bff; /* Change to your desired color on hover */
+}
+.logout a:hover{
+  color: #007bff;
+}
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+/* Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ĐỔi màu nền khi hover và focus Dropdown button */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #3e8e41;
+}
+
+/* Định dạng các thẻ bao bọc các menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content, mặc định sẽ được ẩn đi */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Định dạng các thẻ a là các menu con */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Thay đổi màu nền khi các menu con được hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Hiển thị menu, ta sẽ dùng javascript để thêm class này vào các nôi dung cần được hiển thị */
+.show {display:block;}
+#searchbox {
+  background-color: #cbced1;
+  width: 350px;
+
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 60px;
+  
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+#searchbox input {
+  outline: none;
+}
+#searchbox input[type="text"] {
+  background: transparent;
+  margin: 1px 0px 0px 20px;
+  padding: 5px 0px 5px 0px;
+  border-width: 0px;
+  font-family: "Arial Narrow", Arial, sans-serif;
+  font-size: 17px;
+  color: #828282;
+  width: 70%;
+  display: inline-table;
+  vertical-align: top;
+}
+#button-submit {
+  background: url(http://4.bp.blogspot.com/-OcDQ6Z9ojlQ/VD1KnwJjFOI/AAAAAAAAAgs/cu_pKN6bpL8/s1600/magnifier.png) no-repeat;
+  border-width: 0px;
+  cursor: pointer;
+  margin-left: 52px;
+  margin-top: 6px;
+  width: 21px;
+  height: 22px;
+}
+#button-submit:hover {
+  background: url(http://2.bp.blogspot.com/-4-xFDFGKJrA/VD1Kn04f9TI/AAAAAAAAAgw/2ta84QY1x9A/s1600/magnifier-hover.png) no-repeat;
+}
+#button-submit:active {
+  background: url(http://2.bp.blogspot.com/-4-xFDFGKJrA/VD1Kn04f9TI/AAAAAAAAAgw/2ta84QY1x9A/s1600/magnifier-hover.png) no-repeat;
+  outline: none;
+}
+#button-submit::-moz-focus-inner {
+  border: 0;
+}
+/*----------------------------menu đăng nhập---------------------------*/
+.menu-botton {
+  display: flex;
+  flex-direction: column;
+}
+
+.float2 {
+  justify-content: right; /* Pushes this element to the right */
+  margin-right: 15px;
+  margin-top: -29px;
+  margin-left: 205px;
+  margin-bottom: 7px;
+  
+}
+/*--------------------------------------------login------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ffffff;
+
+}
+
+
+.wrapper {
+    max-width: 350px;
+    min-height: 450px;
+    margin: 20px auto;
+    padding: 10px 10px 10px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    margin-top: 200px;
+}
+
+.logo {
+    margin-left: 80px;
+}
+
+.logo img {
+    width: 150px;
+    height: 80px;
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555;
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #000;
+    padding: 10px 15px 10px 10px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+    /* border: 1px solid red; */
+}
+
+.wrapper .form-field {
+    padding-left: 0px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.wrapper .form-field .fas {
+    color: #555;
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #a2a5b3;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1,
+        -3px -3px 3px #fff;
+    letter-spacing: 1.3px;
+}
+
+.wrapper .btn:hover {
+    background-color: #233dd3;
+}
+.wrapper h3{
+  margin-bottom: 0px;
+  font-size: 25px;
+}
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #03A9F4;
+}
+
+.wrapper a:hover {
+    color: #039BE5;
+}
+
+@media(max-width: 380px) {
+    .wrapper {
+        margin: 30px 20px;
+        padding: 40px 15px 15px 15px;
+    }
+}
+/*------------------------------------infor---------------------------*/
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.float-left {
+  flex: 1 0 70%; 
+  margin: 20px 0px 0px 20px;
+}
+
+.float-left h2 {
+  text-align: center;
+}
+
+.datatable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.datatable th,
+.datatable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  
+}
+
+.datatable th {
+  background-color: #ffeeaa;
+}
+#inputGroup-sizing-default{
+  background-color: #ffeeaa;
+}
+div.list-2{
+  margin-top: 20px;
+}
+/*--------------------------ProductComponet--------------------*/
+/* This is an example CSS for styling the product cards */
+
+.inline {
+  display: flex;
+  margin: 5px;
+  border: 1px solid #cac8c8;
+  padding: 50px;
+  background-color: #ece4e4;
+  max-width: 360px;
+  max-height: 360px;
+}
+
+figure {
+  padding: 5px 5px 5px 0px ;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 10px;
+  font-size: 11px;
+}
+
+figcaption:before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  margin-bottom: 5px;
+}
+.form-table{
+  border: 1px solid #b4a9a9;
+  margin: 20px 210px 0px 210px;
+  background-color:rgb(237, 237, 228);
+  max-width: 100%;
+  margin-top: 100px;
+}
+
+/*==Reset CSS==*/
+.menu-list{
+  background-color: rgb(237, 237, 246);
+}
+.menu-list1{
+  margin: 0;
+}
+nav-link.menu-list2{
+  color: #000000;
+}
+.nav-link{
+  color: #010101  !important;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600 !important;
+}
+
+.nav-link:hover{
+  color: #df612296 !important ;
+}
+
+.dropdown-item {
+  color: #020202 !important;
+  font-weight: 500 !important;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Thêm hiệu ứng mượt mà trong 0.3 giây */
+}
+
+.dropdown-item:hover {
+  background-color: #ececec !important;
+  color: rgb(52, 50, 52) !important; /* Thay đổi màu chữ khi hover */
+}
+.offcanvas{
+  background-color: #676970 !important;
+ 
+}
+.dropdown-menu{
+  padding: 0 !important;
+}
+.icon{
+  font-size: 20px;
+}
+.active-1{
+  font-size: 15px;
+  color: #000;
+  font-weight: 20px;
+}
+.active-1:hover{
+  color: #9ab9d7;
+}
+.hahaha{
+  margin-top: 120px;
+
+}
+.oder-list{
+  justify-content: center;
+  margin: auto;
+  padding: auto;
+}
+
+
+.text-product{
+  color: #000;
+  padding: 0;
+  margin: 10;
+  text-align: left;
+  font-weight: bold;
+  font-size: 11px;
+}
+.text-price{
+  padding-top: 0px;
+  text-align: left;
+  color: red;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.image-form-container {
+  display: flex;
+  justify-content: space-between; /* Hiển thị các phần tử ở hai đầu */
+  align-items: center;
+  margin-top: 200px !important;
+}
+
+.image-form-container form {
+  flex: 1; /* Để form chiếm hết không gian còn lại */
+  /* Các thuộc tính khác của form */
+  text-align: left;
+  margin: 0px 0px 0px 50px ;
+}
+
+.image-form-container img {
+  order: 2; /* Đặt thứ tự hiển thị là 2, để di chuyển ảnh sang bên phải */
+  max-width: 100%;
+  height: auto;
+  margin-right: 15%;
+  /* Các thuộc tính khác của ảnh */
+}
+.name-1{
+  margin-top: 10px;
+  font-size: 30px;
+  font-weight: 700;
+}
+.name-2{
+  margin-top: 10px;
+  font-size: 25px;
+  color: red;
+  font-weight: 600;
+}
+.name-3{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+}
+.name-4{
+
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.name-5{
+  margin-top: 20px;
+  background-color: #989aa1;
+  color: #111010;
+  padding: 5px 5px 5px 5px ;
+}
+.name-5:hover{
+  color: #03408c;
+}
+.home-link{
+  color: #000000 !important ;
+  font-weight: 500 !important;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Thêm hiệu ứng mượt mà trong 0.3 giây */
+  margin-right: 28px;
+  margin-top: 25px ;  
+  align-items: right; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.home-link:hover {
+  
+  color: rgb(230, 75, 32) !important; /* Thay đổi màu chữ khi hover */
+  
+}
+.home-icon{
+  margin-right: 10px;
+  color: #000;
+  font-size: small;
+  
+}
+  /*----------------------------------------------------------------------------------------------------*/
+.search-box{
+  margin-right: 100px;
+  margin-top: 12px;
+}
+.nav-items-container {
+  display: flex;
+  align-items: center;
+}
+
+.form-check-input {
+  margin-left: auto; /* Đẩy nút chuyển đổi về phía bên phải */
+}
+.form-switch {
+  
+  margin-left: 2px; /* Đẩy nút chuyển đổi về phía bên phải */
+  margin-right: 20px; /* Điều chỉnh khoảng cách giữa nút chuyển đổi và các phần khác */
+  margin-top: 10px; /* Đẩy nút chuyển đổi xuống dưới */
+  color: #000;
+
+  /* Điều chỉnh khoảng cách giữa nút chuyển đổi và các phần khác */
+}
+
+footer {
+  background-color: rgb(143, 144, 149);
+  text-align: center;
+  & .footer {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 200px;
+    & h5 {
+      padding-top: 20px; 
+      color: #010101;
+      font-size: 19px;
+      margin: 0;
+    };
+    & a {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: black;
+    };
+  }
+}
+
+.copy {
+  font-weight: 400;
+  margin: 0;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.buttons-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.paypal{
+  margin-left: 340px !important;
+}
